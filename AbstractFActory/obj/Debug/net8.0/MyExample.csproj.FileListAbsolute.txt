@@ -1,0 +1,4 @@
+C:\Users\Utkin\source\repos\AbstractFActory\AbstractFActory\obj\Debug\net8.0\MyExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Utkin\source\repos\AbstractFActory\AbstractFActory\obj\Debug\net8.0\MyExample.AssemblyInfoInputs.cache
+C:\Users\Utkin\source\repos\AbstractFActory\AbstractFActory\obj\Debug\net8.0\MyExample.AssemblyInfo.cs
+C:\Users\Utkin\source\repos\AbstractFActory\AbstractFActory\obj\Debug\net8.0\MyExample.csproj.CoreCompileInputs.cache
