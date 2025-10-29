@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Builder
+namespace Builder.Builder
 {
     public class BuilderMazeGame
     {

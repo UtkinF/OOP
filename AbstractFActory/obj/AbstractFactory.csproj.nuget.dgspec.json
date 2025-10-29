@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Utkin\\source\\repos\\AbstractFActory\\AbstractFActory\\AbstractFactory.csproj": {}
+    "C:\\Users\\phedo\\source\\repos\\Ex\\AbstractFActory\\AbstractFactory.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Utkin\\source\\repos\\AbstractFActory\\AbstractFActory\\AbstractFactory.csproj": {
+    "C:\\Users\\phedo\\source\\repos\\Ex\\AbstractFActory\\AbstractFactory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Utkin\\source\\repos\\AbstractFActory\\AbstractFActory\\AbstractFactory.csproj",
+        "projectUniqueName": "C:\\Users\\phedo\\source\\repos\\Ex\\AbstractFActory\\AbstractFactory.csproj",
         "projectName": "AbstractFactory",
-        "projectPath": "C:\\Users\\Utkin\\source\\repos\\AbstractFActory\\AbstractFActory\\AbstractFactory.csproj",
-        "packagesPath": "C:\\Users\\Utkin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utkin\\source\\repos\\AbstractFActory\\AbstractFActory\\obj\\",
+        "projectPath": "C:\\Users\\phedo\\source\\repos\\Ex\\AbstractFActory\\AbstractFactory.csproj",
+        "packagesPath": "C:\\Users\\phedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\phedo\\source\\repos\\Ex\\AbstractFActory\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Utkin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\phedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Utkin\\source\\repos\\AbstractFActory\\MazeLibrary\\MazeLibrary.csproj": {
-                "projectPath": "C:\\Users\\Utkin\\source\\repos\\AbstractFActory\\MazeLibrary\\MazeLibrary.csproj"
+              "C:\\Users\\phedo\\source\\repos\\Ex\\MazeLibrary\\MazeLibrary.csproj": {
+                "projectPath": "C:\\Users\\phedo\\source\\repos\\Ex\\MazeLibrary\\MazeLibrary.csproj"
               }
             }
           }
@@ -48,8 +48,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -70,24 +69,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Utkin\\source\\repos\\AbstractFActory\\MazeLibrary\\MazeLibrary.csproj": {
+    "C:\\Users\\phedo\\source\\repos\\Ex\\MazeLibrary\\MazeLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Utkin\\source\\repos\\AbstractFActory\\MazeLibrary\\MazeLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\phedo\\source\\repos\\Ex\\MazeLibrary\\MazeLibrary.csproj",
         "projectName": "MazeLibrary",
-        "projectPath": "C:\\Users\\Utkin\\source\\repos\\AbstractFActory\\MazeLibrary\\MazeLibrary.csproj",
-        "packagesPath": "C:\\Users\\Utkin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utkin\\source\\repos\\AbstractFActory\\MazeLibrary\\obj\\",
+        "projectPath": "C:\\Users\\phedo\\source\\repos\\Ex\\MazeLibrary\\MazeLibrary.csproj",
+        "packagesPath": "C:\\Users\\phedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\phedo\\source\\repos\\Ex\\MazeLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Utkin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\phedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -114,8 +113,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -136,7 +134,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

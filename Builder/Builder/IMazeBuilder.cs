@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MazeLibrary;
-namespace Builder
+namespace Builder.Builder
 {
     public interface IMazeBuilder
     {

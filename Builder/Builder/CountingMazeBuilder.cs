@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Builder
+namespace Builder.Builder
 {
     public class CountingMazeBuilder : IMazeBuilder
     {
@@ -24,7 +24,7 @@ namespace Builder
         {
             doors++;
         }
-        public void GetCounts (out int _rooms, out int _doors)
+        public void GetCounts(out int _rooms, out int _doors)
         {
             _rooms = rooms;
             _doors = doors;

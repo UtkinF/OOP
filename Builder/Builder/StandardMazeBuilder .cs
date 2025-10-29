@@ -7,13 +7,13 @@ using MazeLibrary;
 using MazeLibrary.Rooms;
 using MazeLibrary.Doors;
 using MazeLibrary.Walls;
-using static Builder.CreateDirection;
+using static Builder.Builder.CreateDirection;
 
-namespace Builder
+namespace Builder.Builder
 {
-    public class StandardMazeBuilder: IMazeBuilder
+    public class StandardMazeBuilder : IMazeBuilder
     {
-        private Maze maze; 
+        private Maze maze;
         public StandardMazeBuilder()
         {
             Console.WriteLine("Вы создали фабрику");
@@ -29,7 +29,7 @@ namespace Builder
             room.SetSide(Direction.South, new Wall());
             room.SetSide(Direction.West, new Wall());
         }
-        public void BuildDoor(int n1,int n2)
+        public void BuildDoor(int n1, int n2)
         {
             var room1 = maze.RoomNo(n1);
             var room2 = maze.RoomNo(n2);
