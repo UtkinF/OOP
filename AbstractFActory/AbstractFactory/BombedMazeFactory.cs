@@ -9,14 +9,18 @@ using System.Threading.Tasks;
 
 namespace AbstractFActory.AbstractFactory
 {
-    public class BombedMazeFactory: MazeFactory
+    public class BombedMazeFactory : MazeFactory
     {
-        public bool active = false;
+        private bool active = false;
+
         public BombedMazeFactory()
         {
             Console.WriteLine("Создана BombedMazeFactory");
         }
-        public override Room MakeRoom(int n) => new RoomWithBomb(n, active);
+
+        public override Room MakeRoom(int n) =>
+      (n > 0) ? new RoomWithBomb(n, active) : throw new ArgumentException("Номер комнаты должен быть натуральным числом");
+
         public override Door MakeDoor(Room r1, Room r2) => new DoorWithBomb(r1, r2);
     }
 }

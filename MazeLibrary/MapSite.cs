@@ -8,6 +8,8 @@ namespace MazeLibrary
 {
     public abstract class MapSite
     {
-        public virtual void Enter() { }
+        public abstract void Enter();
+
+        public abstract MapSite Clone();
     }
 }

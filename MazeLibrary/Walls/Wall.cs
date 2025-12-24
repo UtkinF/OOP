@@ -8,9 +8,20 @@ namespace MazeLibrary.Walls
 {
     public class Wall:MapSite
     {
+        public Wall(Wall otherWall) { }
+
+        public Wall() { }
+
+
         public override void Enter()
         {
             Console.WriteLine("Вы разбили нос об стену");
+        }
+
+        public override MapSite Clone()
+        {
+            Console.WriteLine("Вы клонировали обычную стену");
+            return new Wall(this);
         }
     }
 }

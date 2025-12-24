@@ -9,8 +9,11 @@ namespace Builder.Builder
     public interface IMazeBuilder
     {
         public void BuildMaze() { }
+
         public void BuildRoom(int roomNumber) { }
+
         public void BuildDoor(int roomFrom, int roomTo) { }
+
         public Maze GetMaze()
         {
             return null;

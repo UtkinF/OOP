@@ -1,15 +1,17 @@
-﻿using System;
+﻿using MazeLibrary.Rooms;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Singleton;
 using AbstractFActory.AbstractFactory;
 using MazeLibrary;
-using MazeLibrary.Rooms;
+using Singleton.Singleton;
 
-namespace AbstractFactory
+namespace Program
 {
-    public  class Program
+    class ProgramSingleton
     {
         static void Main(string[] args)
         {
@@ -17,15 +19,10 @@ namespace AbstractFactory
             {
                 UpgradeMazeGame game = new UpgradeMazeGame();
 
-                SimpleMazeFactory simpleMazeFactory = new SimpleMazeFactory();
-                game.CreateMaze(simpleMazeFactory);
+                MazeFactory mazeSingleton = MazeSingletonFactory.Instance();
+                game.CreateMaze(mazeSingleton);
 
-                EnchantedMazeFactory enchantedMazeFactory = new EnchantedMazeFactory();
-                game.CreateMaze(enchantedMazeFactory);
-
-                BombedMazeFactory bombedMazeFactory = new BombedMazeFactory();
-                game.CreateMaze(bombedMazeFactory);
-
+                MazeFactory mazeSingletonTwo = MazeSingletonFactory.Instance();
                 Console.ReadKey();
             }
             catch (Exception ex)

@@ -3,11 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36616.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFActory\AbstractFactory.csproj", "{A5E570F3-6F5D-4A2D-ADB2-7654480D6E80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFActory\AbstractFactory.csproj", "{A5E570F3-6F5D-4A2D-ADB2-7654480D6E80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeLibrary", "MazeLibrary\MazeLibrary.csproj", "{666672E4-C7D6-46EB-952D-109DF2ED4129}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MazeLibrary", "MazeLibrary\MazeLibrary.csproj", "{666672E4-C7D6-46EB-952D-109DF2ED4129}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{0582CBC7-5921-4065-896C-A239EFAA585E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{0582CBC7-5921-4065-896C-A239EFAA585E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{3C3FB04D-8635-4BCC-BAE9-598DA7BB98B2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{666672E4-C7D6-46EB-952D-109DF2ED4129} = {666672E4-C7D6-46EB-952D-109DF2ED4129}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{1D8A4428-2EAB-4497-9390-6B2CFB6D136E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{19FE87BE-AD44-45CD-86EE-82B84EF9A0B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +36,18 @@ Global
 		{0582CBC7-5921-4065-896C-A239EFAA585E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0582CBC7-5921-4065-896C-A239EFAA585E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0582CBC7-5921-4065-896C-A239EFAA585E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C3FB04D-8635-4BCC-BAE9-598DA7BB98B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C3FB04D-8635-4BCC-BAE9-598DA7BB98B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C3FB04D-8635-4BCC-BAE9-598DA7BB98B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C3FB04D-8635-4BCC-BAE9-598DA7BB98B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D8A4428-2EAB-4497-9390-6B2CFB6D136E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D8A4428-2EAB-4497-9390-6B2CFB6D136E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D8A4428-2EAB-4497-9390-6B2CFB6D136E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D8A4428-2EAB-4497-9390-6B2CFB6D136E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19FE87BE-AD44-45CD-86EE-82B84EF9A0B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19FE87BE-AD44-45CD-86EE-82B84EF9A0B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19FE87BE-AD44-45CD-86EE-82B84EF9A0B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19FE87BE-AD44-45CD-86EE-82B84EF9A0B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

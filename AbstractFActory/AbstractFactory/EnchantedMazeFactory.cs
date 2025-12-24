@@ -16,8 +16,12 @@ namespace AbstractFActory.AbstractFactory
         {
             Console.WriteLine("Создана EnchantedMazeFactory");
         }
+
         public Spell CastSpel => new Spell("Ekspektro Patronos");
-        public override Room MakeRoom(int n) => new EnchantedRoom(n, CastSpel);
+
+        public override Room MakeRoom(int n) =>
+      (n > 0) ? new EnchantedRoom(n, CastSpel) : throw new ArgumentException("Номер комнаты должен быть натуральным числом");
+
         public override Door MakeDoor(Room r1, Room r2) => new DoorNeedingSpell(r1, r2);
 
     }

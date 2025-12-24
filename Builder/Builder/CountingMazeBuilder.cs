@@ -10,20 +10,24 @@ namespace Builder.Builder
 {
     public class CountingMazeBuilder : IMazeBuilder
     {
-        int rooms;
-        int doors;
+        private int rooms;
+        private int doors;
+
         public CountingMazeBuilder()
         {
             rooms = doors = 0;
         }
+
         public void BuildRoom(int roomNumber)
         {
             rooms++;
         }
+
         public void BuildDoor(int roomFrom, int roomTo)
         {
             doors++;
         }
+
         public void GetCounts(out int _rooms, out int _doors)
         {
             _rooms = rooms;

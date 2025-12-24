@@ -8,7 +8,7 @@ namespace MazeLibrary
 {
     public class Bomb
     {
-        public bool ActiveBomb { get; set; }
+        protected bool ActiveBomb { get;private set; }
         public Bomb(bool active)
         {
             ActiveBomb = active;

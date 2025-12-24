@@ -13,9 +13,18 @@ namespace Builder.Builder
     {
         public static Direction CommonWall(Room r1, Room r2)
         {
-            if (r2.RoomNumber == r1.RoomNumber + 1) return Direction.East;
-            if (r2.RoomNumber == r1.RoomNumber - 1) return Direction.West;
-            if (r2.RoomNumber > r1.RoomNumber) return Direction.South;
+            if (r2.RoomNumber == r1.RoomNumber + 1)
+            {
+                return Direction.East;
+            }
+            if (r2.RoomNumber == r1.RoomNumber - 1)
+            {
+                return Direction.West;
+            }
+            if (r2.RoomNumber > r1.RoomNumber)
+            {
+                return Direction.South;
+            }
             return Direction.North;
         }
 
