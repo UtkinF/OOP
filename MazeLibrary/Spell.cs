@@ -8,7 +8,7 @@ namespace MazeLibrary
 {
     public class Spell
     {
-        public string Incantation { get; set; }
+        internal string Incantation { get; set; }
         public Spell(string incantation)
         {
             Incantation = incantation;

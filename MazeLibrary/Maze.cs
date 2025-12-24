@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Buffers;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,24 +10,31 @@ namespace MazeLibrary
 {
     public class Maze
     {
+        private List<Room> _rooms = new List<Room>();
         public Maze(){}
-        List<Room> _rooms = new List<Room>();
+
         public Maze(Maze otherroom)
         {
             _rooms = otherroom._rooms;
         }
+
         public void AddRoom(Room room)
         {
             _rooms.Add(room);
         }
+
         public Room RoomNo(int number)
         {
-            for (int i = 0; i < _rooms.Count; i++)
+            if (number <= 0)
             {
-                if (_rooms[i].RoomNumber == number)
-                    return _rooms[i];
+                throw new ArgumentException("Номер комнаты должен быть натуральным числом");
             }
-            return null;
+            return _rooms.FirstOrDefault(x => x.RoomNumber == number);
+        }
+
+        public Maze Clone()
+        {
+            return new Maze(this);
         }
     }
 }

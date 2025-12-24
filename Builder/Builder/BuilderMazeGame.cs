@@ -17,6 +17,7 @@ namespace Builder.Builder
             mazeBuilder.BuildDoor(1, 2);
             return mazeBuilder.GetMaze();
         }
+
         public Maze CreateComplexMaze(IMazeBuilder mazeBuilder)
         {
             mazeBuilder.BuildMaze();
